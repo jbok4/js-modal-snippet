@@ -24,7 +24,7 @@ function doPopup() {
       .height(docHeight)
       .css({
          'opacity' : 0.4,
-         'position': 'absolute',
+         'position': 'fixed',
          'top': 0,
          'left': 0,
          'background-color': 'black',
@@ -35,14 +35,20 @@ function doPopup() {
       $("#modal")
       .height('80%')
       .css({
-         'opacity' : 1,
-         'position': 'absolute',
-         'top': 100,
-         'left': 100,
-         'background-color': 'pink',
-         'width': '80%',
-         'height': '80%',
-         'z-index': 5000
+        'position':'fixed',
+        'top':'-200px',
+        'left':'30%',
+        'right':'30%',
+        'background-color':'#fff',
+        'color':'#7F7F7F',
+        'padding':'20px',
+        'border':'2px solid #ccc',
+        '-moz-border-radius': '20px',
+        '-webkit-border-radius':'20px',
+        '-khtml-border-radius':'20px',
+        '-moz-box-shadow': '0 1px 5px #333',
+        '-webkit-box-shadow': '0 1px 5px #333',
+        'z-index':5000
       });
 };
 
