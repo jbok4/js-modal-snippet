@@ -57,18 +57,4 @@ function doPopup() {
 // The trigger should show a centered overlay on top of the site that displays the information gathered above and two buttons. One button should close the overlay and the other should take the user to the cart page. It should have a style consistent with the website. Design matters. 
 
 
-        // 'position':'fixed',
-        // 'top':'-200px',
-        // 'left':'30%',
-        // 'right':'30%',
-        // 'background-color':'#fff',
-        // 'color':'#7F7F7F',
-        // 'padding':'20px',
-        // 'border':'2px solid #ccc',
-        // '-moz-border-radius': '20px',
-        // '-webkit-border-radius':'20px',
-        // '-khtml-border-radius':'20px',
-        // '-moz-box-shadow': '0 1px 5px #333',
-        // '-webkit-box-shadow': '0 1px 5px #333',
-
 </script>
